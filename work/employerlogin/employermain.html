@@ -1,0 +1,15 @@
+<html>
+<script>
+history.pushState(null, document.title, location.href);
+window.addEventListener('popstate', function (event)
+{
+  history.pushState(null, document.title, location.href);
+});
+</script>
+<frameset rows="15%,25%,45%,15%">
+<frame src="employerprofile.php" frameborder=0 scrolling=no noresize>
+<frame src="post.html" frameborder=0 scrolling=no noresize>
+<frame src="givenprojects.php" frameborder=0 noresize>
+<frame src="showstatusbutton.html" frameborder=0 noresize scrolling=no>
+</frameset>
+</html>

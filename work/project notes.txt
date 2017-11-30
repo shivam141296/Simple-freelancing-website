@@ -1,0 +1,23 @@
+table-projects
+->projectname
+->description
+->min bid
+->expected time of subm
+->projectid(autoinc.)
+->name of hirer
+->hire_emailid
+-> a link to take the project
+
+query->
+select projectname from projects where  hire_emailid=$_session(email id) 
+
+-----------------------------------------------------------------------------------------
+
+email id duplication problem during register
+
+------------------------------------------------------------------------------------------
+
+for "look for projects"
+select * from projects; 
+
+-----------------------------------------------------------------------------------------
